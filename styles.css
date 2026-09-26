@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* ===== CSS RESET ===== */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    object-fit: contain; /*Помещать изображения в блок*/
+    width: 100%; /*Лучше сразу задать всем изображением макс.значения, а потом подгонять*/
+}
+
+button,
+input,
+textarea,
+select {
+    font: inherit;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+section{
+    margin-bottom: 90px;
+}
+body{
+    font-family: "Inter", sans-serif;
+    color: #101010;
+}
+.hero{
+    margin-top: 80px;
+}
+.container{
+    min-width: 1440px;
+    padding: 0 50px;
+    margin: 0 auto;
+}
+.hero__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.hero__content{
+    width: 33%;
+}
+.hero__img{
+    width: 25%;
+}
+.hero__text{
+    font-weight: 500;
+    font-size: 20px;
+    color: #909090;
+    margin-bottom: 19px;
+}
+.hero__title{
+    font-weight: 700;
+    font-size: 86px;
+    margin-bottom: 20px;
+}
+.hero__list{
+    font-weight: 500;
+    font-size: 20px;
+    color: #909090;
+    gap: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+}
+.hero__social{
+    font-weight: 500;
+    font-size: 20px;
+    gap: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.about-me__container,
+.skills__container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.about-me__caption,
+.skills__caption{
+    width: 130px;
+
+}
+.about-me__content,
+.skills__content{
+    width: calc(100% - 130px - 128px);
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140%;
+}
+.about-me__title,
+.skills__title{
+    font-weight: 400;
+    font-size: 22px;
+}
+.skills__subtitle{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 140%;
+    margin-bottom: 10px;
+}
+.skills__content p{
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.exp__title{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+.exp__subtitle{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 140%;
+    margin-bottom: 10px;
+}
+.exp__descr{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140%;
+    margin-bottom: 20px;
+}
+.exp__list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+.exp__item{
+    border-left: 1px solid #909090;
+    padding: 12px 16px;
+    width: 30%;
+}
+.exp__item h3{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 140%;
+}
+.exp__item ul{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 140%;
+    list-style: circle;
+    padding-left: 30px;
+}
+.works{
+
+}
+.works__title{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 120%;
+    color: #101010;
+}
+.works__subtitle{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 140%;
+    color: #101010;
+}
+.card li{
+    border: 1px solid #d5d5d5;
+    border-radius: 30px;
+    padding: 6px 18px;
+    display: flex;
+}
+.works__card{
+    font-weight: 500;
+    font-size: 20px;
+    color: #909090;
+    display: flex;
+    gap: 20px;
+}
+.works__container{
+
+}
+.works__img{
+    display: flex;
+    box-shadow: 1px 7px 22px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 40px;
+    width: 1300px;
+    height: 720px;
+    background-image: url(images/Обложка\ внутри\ кейса\(1\).png);
+}
+.works__img_1{
+    display: flex;
+    box-shadow: 1px 7px 22px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 40px;
+    width: 1300px;
+    height: 720px;
+    
+}
+.works__img_2{
+    display: flex;
+    box-shadow: 1px 7px 22px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 40px;
+    width: 1300px;
+    height: 720px;
+    
+}
+.works__img ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.{
+    align-items: flex-end;
+    display: flex;
+    position: relative;
+    top: ;
+}
